@@ -16,4 +16,41 @@
    - 2.3 module.exports vs export default
    - 2.4 How Node resolves modules
    - 2.5 package.json "type": "module"
+3. Core Node.js Concepts
+   - 3.1 What is node js ?
+   - 3.2 How does Node.js handle concurrency if it's single-threaded?
+     Hint: Event Loop & asynchronous callback
+   - 3.3 what is the v8 engine?
+   - what is the difference between Node.js & a browser javascript environment?
+   - Explain the difference between `process.nextTick()`, `setImmediate()` and `setTimeout()`
+   - what are global objects in Node.js?
+4. Module & Packages
+   - Explain CommonJs vs ES Modules in Node.js
+   - How do you export and import modules?
+   - what is the difference between `require()` and `import()`
+   - How does npm or yarn manage dependencies?
+   - What are peer dependencies?
+6. Asynchrouns Programming
+   - What are callbacks, promises, and async/await?
+   - what are `callback hell` and ways to avoid it?
+   - what is `promise.all()`, `Promise.race()` and `Promise.any()` ?
+   - How does the Node.js event loop work with async functions?
+   - what is the difference between microtasks and macrotasks?
+8. File System and Streams
+   - what is a stream in Node.js?
+   - Explain the difference between readable, writabl, duplex, and transform stream.
+   - How do you read/write files asynchronously using fs?
+   - How does piping work in streams?
+   - what's the difference between buffering and streaming?
+9. HTTP & APIs
+    - How do you create an HTTP server in Node.js?
+    - How do you handle JSON requests ad reponse?
+    - What are middleswares in express.js?
+    - Diffrence between `res.send()`, `res.json()` and `res.end()` in Express?
+    - What's th role of `body-parser` or why isn't it needed in recent Express versions?
+    - What are CORS and how do you hadle them in Node ?
+    - How do you handle file uploads in Node.js?
+10. Security
+    - How do you protect against SQL Injection and XSS in Node.js?
+13. 
    
