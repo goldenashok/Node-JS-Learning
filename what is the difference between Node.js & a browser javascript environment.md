@@ -1,7 +1,5 @@
-# what is the difference between Node.js & a browser javascript environment?
-     
+# what is the difference between Node.js & a browser javascript environment?     
      Both Node.js and browsers use JavaScript, but they run in different environments and serve different purposes.
-     
      - Execution Environment
        
       | Aspect          | **Node.js**                                     | **Browser**                               |
@@ -26,10 +24,12 @@
        | Local Storage      | ❌ (but can use DBs like Redis, MongoDB) | ✅ via `localStorage`, `sessionStorage` |
 
     - Module System
+    
        | Feature     | **Node.js**                                   | **Browser**                       |
        | ----------- | --------------------------------------------- | --------------------------------- |
        | Module Type | CommonJS (`require`) or ES Modules (`import`) | ES Modules only (`import/export`) |
        | Example     | `const fs = require('fs');`                   | `import data from './file.js';`   |
+       
     - Security Context
          - Browser: Runs in a sandboxed environment — cannot access local files or system-level resources directly (for user safety).
          - Node.js: Has full system access — can read/write files, access the network, and manage processes. 
