@@ -1,13 +1,13 @@
 # what is the difference between Node.js & a browser javascript environment?     
      Both Node.js and browsers use JavaScript, but they run in different environments and serve different purposes.
-     - Execution Environment       
+  - Execution Environment       
       | Aspect          | **Node.js**                                     | **Browser**                               |
       | --------------- | ----------------------------------------------- | ----------------------------------------- |
       | **Engine**      | V8 (same as Chrome)                             | V8 (Chrome), SpiderMonkey (Firefox), etc. |
       | **Purpose**     | Run JavaScript on the **server side**           | Run JavaScript on the **client side**     |
       | **Environment** | Outside the browser (server, terminal, backend) | Inside the browser (frontend, UI)         |
 
-     - Global Objects
+   - Global Objects
          | Concept       | **Node.js**            | **Browser**        |
          | ------------- | ---------------------- | ------------------ |
          | Global Object | `global`               | `window` or `self` |
@@ -22,7 +22,7 @@
        | OS Access          | ✅ via `os`, `path`, `child_process`     | ❌                                      |
        | Local Storage      | ❌ (but can use DBs like Redis, MongoDB) | ✅ via `localStorage`, `sessionStorage` |
 
-    - Module System    
+  - Module System    
        | Feature     | **Node.js**                                   | **Browser**                       |
        | ----------- | --------------------------------------------- | --------------------------------- |
        | Module Type | CommonJS (`require`) or ES Modules (`import`) | ES Modules only (`import/export`) |
