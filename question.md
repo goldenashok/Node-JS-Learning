@@ -40,9 +40,9 @@
    - 3.3 what is the v8 engine?
    - 3.4 what is the difference between Node.js & a browser javascript environment?
      
-     Both Node.js and browsers use JavaScript, but they run in different environments and serve different purposes.
-     
+     Both Node.js and browsers use JavaScript, but they run in different environments and serve different purposes.     
      - Execution Environment
+       
       | Aspect          | **Node.js**                                     | **Browser**                               |
       | --------------- | ----------------------------------------------- | ----------------------------------------- |
       | **Engine**      | V8 (same as Chrome)                             | V8 (Chrome), SpiderMonkey (Firefox), etc. |
