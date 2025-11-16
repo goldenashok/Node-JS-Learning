@@ -52,5 +52,35 @@
     - How do you handle file uploads in Node.js?
 10. Security
     - How do you protect against SQL Injection and XSS in Node.js?
-13. 
+    - How do you store passwords securely?
+      Hint: bcrypt, hashing, salting
+    - what are common security middleware packages?
+    - How do you handle environment variables securely?
+13. Performance & Scaling
+    - How does Node handle multiple requests efficiently?
+    - What is the cluster module and why is it used?
+    - How do you use wrke threads in Node.js?
+    - what is load balancing and how can you implement it in Node?
+    - How do you identify memory leaks in Node.js?
+15. Event Emitter
+    - What is an `EventEmitter` in NOde.js?
+    - How do you create custom events?
+    - what is difference between `on`, `once` and `removeListener`?
+17. Tools & Debugging
+    - How do you debug a Node.js applicaiton?
+    - What's the difference between `console.log`, `console.error` and `console.dir` ?
+    - How do you use the `--inspect` flag or Chrome DevTools with Node?
+18. Read-World / Practical Questions
+    - How would you desing a REST API using Node.js + Express?
+    - How do you connect Node.js to MongoDB or MySQL?
+    - How do you implement JWT-based authentication?
+    - How woluld you handle backgroud jobs( e.g with Bull or Agenda) ?
+    - How do you schedule tasks in Node.js?
+    - How would you optimize a slow API endpoint?
+20. Trick or Deep-Dive Questions
+    - Why is Node.js not suitable for CPU-intensive tasks?
+    - what happens when you call `require()` for the same file multiple times?
+    - How do you handle uncaught exceptions in Node.js?
+    - What's the difference between `spawn`, `fork` and `exec` from the `child_process` module?
+    - What's the difference between synchronous and asynchrouns I/O in Node?
    
