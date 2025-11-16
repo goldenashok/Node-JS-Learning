@@ -120,7 +120,7 @@
    - Explain the difference between `process.nextTick()`, `setImmediate()` and `setTimeout()`
    - what are global objects in Node.js?
 4. Module & Packages
-   - Explain CommonJs vs ES Modules in Node.js
+   - [Explain CommonJs vs ES Modules in Node.js](https://github.com/goldenashok/Node-JS-Learning/blob/main/Explain%20commonjs%20vs%20ES%20Modules%20in%20node%20js.md)
    - How do you export and import modules?
    - what is the difference between `require()` and `import()`
    - How does npm or yarn manage dependencies?
