@@ -3,6 +3,7 @@
 Both CommonJS (CJS) and ES Modules (ESM) are systems for organizing and reusing code in Node.js — but they work differently.
 
 - Definition
+  
 | Type                 | Description                                                                 |
 | -------------------- | --------------------------------------------------------------------------- |
 | **CommonJS (CJS)**   | The original Node.js module system — uses `require()` and `module.exports`. |
