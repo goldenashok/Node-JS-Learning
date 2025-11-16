@@ -66,6 +66,7 @@ const esm = await import('./module.mjs');
 Note: Dynamic import() returns a Promise — it’s asynchronous.
 
 - When to Use Which
+  
 | Use Case                                 | Recommendation                       |
 | ---------------------------------------- | ------------------------------------ |
 | Existing Node.js projects                | CommonJS                             |
