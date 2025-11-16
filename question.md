@@ -20,6 +20,12 @@
    - 3.1 What is node js ?
    - 3.2 How does Node.js handle concurrency if it's single-threaded?
      Hint: Event Loop & asynchronous callback
+     Node.js uses a single-threaded event loop architecture - but the doesn't mean it can handle only one request at a time.
+     instead, Node achieves concurrency through non-blocking I/O and event-driven model
+
+        - Single Threade for Javascript Execution
+             - Node runs all your Javascript code in single main thread (one call stack).
+             - This thread executes code, register callbacks, and delegates tasks to the system
    - 3.3 what is the v8 engine?
    - what is the difference between Node.js & a browser javascript environment?
    - Explain the difference between `process.nextTick()`, `setImmediate()` and `setTimeout()`
