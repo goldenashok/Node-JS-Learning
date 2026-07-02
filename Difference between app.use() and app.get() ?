@@ -1,5 +1,5 @@
 In Express.js, both app.use() and app.get() are used to handle requests, but they serve different purposes.
-app.use()
+# app.use()
 Used to register middleware.
 
 ```
@@ -8,7 +8,7 @@ app.use((req, res, next) => {
   next();
 });
 ```
-Characteristics
+## Characteristics
   - Executes for all HTTP methods (GET, POST, PUT, DELETE, etc.).
   - Can run for every route or a specific path prefix.
   - Usually used for:
@@ -17,7 +17,7 @@ Characteristics
     - Error handling
     - Parsing request bodies
     - Setting headers
-Example :
+### Example :
 
 ```
 app.use('/api', (req, res, next) => {
@@ -33,7 +33,7 @@ POST   /api/users
 PUT    /api/users/1
 DELETE /api/users/1
 ```
-app.get()
+# app.get()
 Used to handle GET requests only.
 ```
 app.get('/users', (req, res) => {
@@ -41,7 +41,7 @@ app.get('/users', (req, res) => {
 });
 ```
 
-Characteristics
+## Characteristics
 
   - Triggered only for HTTP GET.
   - Matches an exact route pattern.
@@ -78,7 +78,7 @@ app.get('/users', (req, res) => {
 Request:
 GET /users
 
-Output: 
+### Output: 
 
 Middleware
 GET Handler
