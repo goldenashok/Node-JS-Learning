@@ -173,87 +173,61 @@
    - How to avoid callback hell?
    - What happens if a Promise is not handled?
 25. Performance Optimization
-
-How do you optimize Node.js performance?
-What is event loop blocking? How to detect it?
-Tools used for performance monitoring (e.g., PM2, New Relic).
-How do you handle CPU-heavy tasks?
-What is streaming? When should you use it?
-
-
+   - How do you optimize Node.js performance?
+   - What is event loop blocking? How to detect it?
+   - Tools used for performance monitoring (e.g., PM2, New Relic).
+   - How do you handle CPU-heavy tasks?
+   - What is streaming? When should you use it?
 26. Memory Management
-
-How does garbage collection work in Node.js?
-What is a memory leak? How to detect it?
-Tools to debug memory issues (e.g., heapdump, Chrome DevTools).
-Difference between stack and heap memory.
-
-
+   - How does garbage collection work in Node.js?
+   - What is a memory leak? How to detect it?
+   - Tools to debug memory issues (e.g., heapdump, Chrome DevTools).
+   - Difference between stack and heap memory.
 27. Security
-
-Common Node.js security threats (XSS, CSRF, Injection).
-How do you secure APIs?
-What is JWT? How do you implement authentication?
-How to handle sensitive data and secrets?
-Explain Helmet, CORS.
-
-
+   - Common Node.js security threats (XSS, CSRF, Injection).
+   - How do you secure APIs?
+   - What is JWT? How do you implement authentication?
+   - How to handle sensitive data and secrets?
+   - Explain Helmet, CORS.
 28. Database & Scaling
-
-How do you manage database connections in Node.js?
-SQL vs NoSQL usage in Node apps.
-What is connection pooling?
-How do you handle transactions?
-How to design scalable APIs?
-
-
+   - How do you manage database connections in Node.js?
+   - SQL vs NoSQL usage in Node apps.
+   - What is connection pooling?
+   - How do you handle transactions?
+   - How to design scalable APIs?
 29. Streams & Buffers
-
-What are streams in Node.js?
-Types: Readable, Writable, Duplex, Transform.
-Difference between Buffer and Stream.
-When to use streams over reading full file?
-
-
+   - What are streams in Node.js?
+   - Types: Readable, Writable, Duplex, Transform.
+   - Difference between Buffer and Stream.
+   - When to use streams over reading full file?
 30. Advanced Topics
-
-What are worker threads?
-Explain event emitters.
-How Node handles child processes?
-Difference between fork, spawn, and exec.
-How to implement caching (Redis)?
-
-
+   - What are worker threads?
+   - Explain event emitters.
+   - How Node handles child processes?
+   - Difference between fork, spawn, and exec.
+   - How to implement caching (Redis)?
 31. Debugging & Testing
-
-How do you debug a Node.js app?
-Tools: node --inspect, Chrome DevTools.
-Unit testing frameworks (Jest, Mocha).
-How to mock APIs?
-What is integration vs unit testing?
-
-
+   - How do you debug a Node.js app?
+   - Tools: node --inspect, Chrome DevTools.
+   - Unit testing frameworks (Jest, Mocha).
+   - How to mock APIs?
+   - What is integration vs unit testing?
 32. Real-world Scenario Questions
-
-How would you design a high-traffic API (e.g., like Uber)?
-How would you reduce API response time?
-How do you handle 1M concurrent requests?
-What would you do if your Node server crashes?
- i. use process manager
- ii. Auto restart on crash
- iii. 
-How to implement logging and monitoring?
-
-
+   - How would you design a high-traffic API (e.g., like Uber)?
+   - How would you reduce API response time?
+   - How do you handle 1M concurrent requests?
+   - What would you do if your Node server crashes?
+       i. use process manager
+       ii. Auto restart on crash
+       iii. 
+   - How to implement logging and monitoring?
 33. Coding / Practical Questions
 Example tasks:
 JavaScript// 1. Debounce function implementation// 2. Implement rate limiter// 3. File upload with streaming (Express)// 4. Create a custom middleware// 5. Implement retry logic for API callsShow more lines
 
 34. Frequently Asked Tricky Questions
-
-Why is Node.js single-threaded but still scalable?
-Can Node.js handle CPU-intensive tasks?
-Difference between require and import.
-What happens when you block the event loop?
-Why async/await is just syntactic sugar?
-
+   - Why is Node.js single-threaded but still scalable?
+   - Can Node.js handle CPU-intensive tasks?
+   - Difference between require and import.
+   - What happens when you block the event loop?
+   - Why async/await is just syntactic sugar?
