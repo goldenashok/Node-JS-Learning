@@ -4,7 +4,7 @@
    - 1.3 Callbacks, microtasks, nextTick(), Promises
    - 1.4 When code runs libuv thread pool(fs, crypto, dns, zlib)
    - 1.5 Explain Node event loop
-   - 1.6 How concurrency achived in a single thread ?
+   - 1.6 [How concurrency achived in a single thread?](https://github.com/goldenashok/Node-JS-Learning/blob/main/How%20concurrency%20achived%20in%20a%20single%20thread%3F.md)
    - 1.7 Difference between process.nextTick() and setImmediate()?
    - 1.8 Callbacks vs Promises vs async/await
    - 1.9 Parallel, sequential, and race operations using promise methods
