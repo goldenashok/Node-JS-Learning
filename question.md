@@ -8,7 +8,7 @@
    - 1.7 Difference between process.nextTick() and setImmediate()?
    - 1.8 Callbacks vs Promises vs async/await
    - 1.9 Parallel, sequential, and race operations using promise methods
-   - 1.10 How do you handle asynchronous errors ?
+   - 1.10 [How do you handle asynchronous errors ?](https://github.com/goldenashok/Node-JS-Learning/blob/main/How%20do%20you%20handle%20asynchronous%20errors%3F.md)
    - 1.11 promise.all vs Promise.allSettled vs Promise.race
 2. Node.Js Architecture
    - 2.1 Common JS vs ES Modules
