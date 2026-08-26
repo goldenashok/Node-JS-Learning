@@ -229,3 +229,4 @@ JavaScript// 1. Debounce function implementation// 2. Implement rate limiter// 3
    - Difference between require and import.
    - What happens when you block the event loop?
    - Why async/await is just syntactic sugar?
+35. [Why is Node.js is fast?](https://github.com/goldenashok/Node-JS-Learning/blob/main/why%20is%20node.js%20fast%3F.md)
